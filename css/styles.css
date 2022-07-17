@@ -78,11 +78,11 @@ li {
   text-transform: uppercase;
   color: var(--clr-white);
   font-weight: 600;
+  transition: all .3s;
 }
 .nav__link:hover {
   border-bottom: 1px solid;
-  transform: rotatey(360deg);
-  transition: 1s;
+  transform: translateY(1rem) rotate(5deg);
 }
 .su:hover {
   border-bottom: none;
